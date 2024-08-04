@@ -2191,15 +2191,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "DA"
-				(at -4.064 1.27 0)
+				(at -4.064 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RS3112XK"
-				(at 0 0 0)
+			(property "Value" "RS3112XK-2.5"
+				(at 2.032 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2224,7 +2224,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Источник опорного напряжения"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -7591,93 +7591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "zpc-lib:RS3112")
-		(at 102.87 223.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "226fcb87-05b5-49a1-b835-27bb945e92d6")
-		(property "Reference" "DA11"
-			(at 102.87 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS3112XK-2.5"
-			(at 102.87 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 102.87 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Источник опорного напряжения"
-			(at 102.87 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa4b9095-3621-4275-9223-91b2e2a9bce1")
-		)
-		(pin "4"
-			(uuid "e5ff0773-f39b-4b11-a473-cfc600d51d61")
-		)
-		(pin "6"
-			(uuid "84e066fb-82a0-48f9-a7a6-aa434ffcdef0")
-		)
-		(pin "3"
-			(uuid "afd35edd-8a86-4008-aa48-8f4046ad620f")
-		)
-		(pin "1"
-			(uuid "c32e59a1-18fa-4f23-b010-3ed4ad601243")
-		)
-		(pin "5"
-			(uuid "8f976443-c919-4ea7-95af-2567401fe904")
-		)
-		(pin "7"
-			(uuid "c10d432a-41ae-4219-8451-68d7fb8ae68c")
-		)
-		(pin "8"
-			(uuid "33b049e3-ec82-407f-963a-def583f62518")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "DA11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 337.82 232.41 0)
 		(unit 1)
@@ -9014,93 +8927,6 @@
 		)
 	)
 	(symbol
-		(lib_id "zpc-lib:RS3112")
-		(at 110.49 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44b68dbb-a998-4716-b42a-bd8ad7023028")
-		(property "Reference" "DA4"
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS3112XK-2.5"
-			(at 110.49 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Источник опорного напряжения"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "890a8ee5-2852-4d7b-929a-69eb592a3109")
-		)
-		(pin "4"
-			(uuid "914dffe1-2ee2-4b20-8276-75a44a68ffb7")
-		)
-		(pin "6"
-			(uuid "95b36101-fe45-4b7d-a51b-bea571fe37f2")
-		)
-		(pin "3"
-			(uuid "1f068881-8277-43b6-866e-6ee039868148")
-		)
-		(pin "1"
-			(uuid "ef0937ce-5744-4f6d-a54c-95be4423e4d9")
-		)
-		(pin "5"
-			(uuid "79fd1d24-ad24-4d93-b878-bd4d11b048d1")
-		)
-		(pin "7"
-			(uuid "c51312bc-2001-426f-adee-b8c79ecb4204")
-		)
-		(pin "8"
-			(uuid "c0f3339a-e56b-49d9-a8e9-bdb5e8450d7c")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "DA4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 91.44 266.7 0)
 		(mirror y)
@@ -10230,6 +10056,92 @@
 		)
 	)
 	(symbol
+		(lib_id "zpc-lib:RS3112")
+		(at 110.49 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e094382-7b57-4e5c-8107-22b124b7f4a5")
+		(property "Reference" "DA4"
+			(at 110.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS3112XK-2.5"
+			(at 110.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f3ba4e39-84c2-4240-a13f-f814820d66cf")
+		)
+		(pin "2"
+			(uuid "6094ad37-0578-4531-a1d1-aab0c8063c67")
+		)
+		(pin "8"
+			(uuid "31b73126-f8c9-417f-9bf5-effa3e488add")
+		)
+		(pin "3"
+			(uuid "87781fc9-f5c8-47ff-941b-44644e5af1eb")
+		)
+		(pin "1"
+			(uuid "c97f8888-6648-4386-8033-3b8ef3990c47")
+		)
+		(pin "4"
+			(uuid "d1b15725-639f-4a47-bef4-c8836785a1b5")
+		)
+		(pin "7"
+			(uuid "77e2fcdb-aacc-4335-b095-de0d60bd804e")
+		)
+		(pin "6"
+			(uuid "38d8bde8-01fe-4e7c-83ed-a764d2530e10")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
+					(reference "DA4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 140.97 132.08 90)
 		(mirror x)
@@ -10487,92 +10399,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "zpc-lib:RS3112")
-		(at 135.89 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b9c6843-a7b0-4e3a-a059-d5dc3b323ac6")
-		(property "Reference" "DA6"
-			(at 135.89 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS3112XK-2.5"
-			(at 135.89 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 135.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Источник опорного напряжения"
-			(at 135.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7deb16b-f6a1-432c-81e9-2fa50d127661")
-		)
-		(pin "4"
-			(uuid "830cb487-5437-4474-b174-5254e3d21df0")
-		)
-		(pin "6"
-			(uuid "f3e6511c-f6c8-45a2-8381-b62105da3516")
-		)
-		(pin "3"
-			(uuid "b7277eae-e0a3-4eab-abb4-53064e26806f")
-		)
-		(pin "1"
-			(uuid "c4fe75db-0ae8-4f94-a0c3-54bd7fdf4c74")
-		)
-		(pin "5"
-			(uuid "1b7fe863-a424-42b0-8046-083081d76a1e")
-		)
-		(pin "7"
-			(uuid "38408e40-6a10-4e77-afca-0f87fcbca5aa")
-		)
-		(pin "8"
-			(uuid "b846ece5-2cb4-4a05-ae23-350d25e18d56")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "DA6")
 					(unit 1)
 				)
 			)
@@ -13398,6 +13224,92 @@
 		)
 	)
 	(symbol
+		(lib_id "zpc-lib:RS3112")
+		(at 128.27 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b16ceedb-ae0c-4714-a720-dc65f5883c35")
+		(property "Reference" "DA5"
+			(at 128.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS3112XK-2.5"
+			(at 128.27 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 128.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a484c055-58d3-4c89-b0d9-fdbb59e198fa")
+		)
+		(pin "2"
+			(uuid "2e2b4ef6-cf06-4457-aae9-cf809b4866c2")
+		)
+		(pin "8"
+			(uuid "92ee0a3f-d91c-495f-8cd3-972297d38ab3")
+		)
+		(pin "3"
+			(uuid "2c810fb9-5fae-4414-b40b-779cf6e06e9a")
+		)
+		(pin "1"
+			(uuid "ad921e95-5ddd-4584-ab81-20449bef4065")
+		)
+		(pin "4"
+			(uuid "a27c5a70-4f1a-428a-bd46-08cd4a36033e")
+		)
+		(pin "7"
+			(uuid "ab4ea4ec-7799-4d02-b649-64dd996c82c2")
+		)
+		(pin "6"
+			(uuid "91fc9f23-5609-48e7-a6f7-8729e5b26ec0")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
+					(reference "DA5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 201.93 115.57 0)
 		(unit 1)
@@ -14520,92 +14432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "zpc-lib:RS3112")
-		(at 128.27 200.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d69edca2-4977-4c5c-bb24-bc204a2d478e")
-		(property "Reference" "DA12"
-			(at 128.27 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS3112XK-2.5"
-			(at 128.27 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 128.27 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Источник опорного напряжения"
-			(at 128.27 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5430a83-b566-4e2d-8ac2-5cbbbd84bc0a")
-		)
-		(pin "4"
-			(uuid "a9c272c3-5c67-4eaa-b28b-d517db1c7099")
-		)
-		(pin "6"
-			(uuid "18cebd8b-2d2d-42df-bc3a-1298dda58153")
-		)
-		(pin "3"
-			(uuid "05c37226-ef02-467b-b1c5-ba7e2f231282")
-		)
-		(pin "1"
-			(uuid "cf609bbf-e79f-45de-a62e-2488a9d31970")
-		)
-		(pin "5"
-			(uuid "1a09a291-8d52-4d16-b077-3fae2b1012ed")
-		)
-		(pin "7"
-			(uuid "3f901e82-bf3d-460a-ba84-ab1473a77f3e")
-		)
-		(pin "8"
-			(uuid "dd432560-4b92-4d3e-b664-db340a2ab3b2")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "DA12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 172.72 234.95 90)
 		(mirror x)
@@ -14932,6 +14758,92 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "zpc-lib:RS3112")
+		(at 135.89 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea55893b-af54-47e3-aa8a-b3779dbc9337")
+		(property "Reference" "DA3"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS3112XK-2.5"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b6df80f5-083d-443c-af5b-2b5ef01d46cd")
+		)
+		(pin "2"
+			(uuid "b91b8455-08cf-4a48-9cab-11fcf8031a43")
+		)
+		(pin "8"
+			(uuid "6441800c-7ef3-4261-87cc-7bfd66afce00")
+		)
+		(pin "3"
+			(uuid "912d7987-43d7-44f0-989e-359d8deab771")
+		)
+		(pin "1"
+			(uuid "8300879b-c6ca-42a9-940b-e934b08314c2")
+		)
+		(pin "4"
+			(uuid "c3882e12-bb88-496c-ae67-63de52babea5")
+		)
+		(pin "7"
+			(uuid "be5c5921-e010-4dca-942e-6e56e8705e7b")
+		)
+		(pin "6"
+			(uuid "9a2114bf-7ab0-454d-b8da-0c8d6f127bcb")
+		)
+		(instances
+			(project ""
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
+					(reference "DA3")
 					(unit 1)
 				)
 			)
@@ -15598,6 +15510,92 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "zpc-lib:RS3112")
+		(at 102.87 223.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb5e5240-ab85-4210-be11-5bab971cba5e")
+		(property "Reference" "DA6"
+			(at 102.87 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS3112XK-2.5"
+			(at 102.87 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 102.87 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c5d4ecba-2675-4bf2-a73c-d8d9929a01fe")
+		)
+		(pin "2"
+			(uuid "6a28042d-38e3-4409-937e-e81afd4dac03")
+		)
+		(pin "8"
+			(uuid "15efb914-2d1b-4d15-87de-bee429b05dce")
+		)
+		(pin "3"
+			(uuid "544fbde6-e97d-48ed-a078-bcd567573a6c")
+		)
+		(pin "1"
+			(uuid "7507a343-26d2-417c-8fb7-7b29c7697f29")
+		)
+		(pin "4"
+			(uuid "0c60c065-d21e-4f4d-adbe-be914da3b012")
+		)
+		(pin "7"
+			(uuid "1aaef877-84c8-4355-b419-098b5bc365e9")
+		)
+		(pin "6"
+			(uuid "f33176b9-661e-4435-870d-459e1c59122b")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
+					(reference "DA6")
 					(unit 1)
 				)
 			)

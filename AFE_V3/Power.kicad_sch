@@ -2729,24 +2729,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
-				(at 0 10.16 0)
+			(property "Reference" "U"
+				(at -12.75 5.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "B1212LS-1WR3"
-				(at 0 7.62 0)
+			(property "Value" "PCN1-S5-S15-S"
+				(at -12.7375 -7.6425 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "zpc-lib:CONV_PCN1-S5-S15-S"
-				(at 0 11.176 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2774,7 +2776,7 @@
 				)
 			)
 			(property "MF" "CUI Inc."
-				(at 0 12.446 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2784,7 +2786,7 @@
 				)
 			)
 			(property "Description_1" "1 W, 1:1 Input Voltage Range, Single/Dual Unregulated Output, SIP, 1,500 Vdc Isolation, Dc-Dc Converter"
-				(at -0.508 14.224 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2794,7 +2796,7 @@
 				)
 			)
 			(property "Package" "SIP-6 CUI"
-				(at 0 13.208 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2814,7 +2816,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/PCN1-S5-S15-S/CUI/view-part/?ref=eda"
-				(at 1.016 -13.208 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2824,7 +2826,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer recommendations"
-				(at 0.254 14.224 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2834,7 +2836,7 @@
 				)
 			)
 			(property "PARTREV" "1.0"
-				(at 0 11.938 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2844,7 +2846,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PCN1-S5-S15-S/CUI/view-part/?ref=snap"
-				(at 1.016 -13.208 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2864,7 +2866,7 @@
 				)
 			)
 			(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pcn1-s-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-				(at 0.508 11.176 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2905,9 +2907,7 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "PCN1-S5-S15-S_1_0"
-				(pin passive line
+				(pin input line
 					(at -17.78 0 0)
 					(length 5.08)
 					(name "+VIN"
@@ -2925,7 +2925,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -17.78 -2.54 0)
 					(length 5.08)
 					(name "-VIN"
@@ -2943,7 +2943,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "-VOUT"
@@ -2961,7 +2961,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 17.78 0 180)
 					(length 5.08)
 					(name "+VOUT"
@@ -3822,8 +3822,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U5"
-				(at 0 -3.81 0)
+			(property "Reference" "U"
+				(at -3.81 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3831,14 +3831,15 @@
 				)
 			)
 			(property "Value" "L7905"
-				(at 0 -6.35 0)
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(property "Footprint" ""
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -3916,7 +3917,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "VI"
@@ -3961,8 +3962,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TH1"
-				(at -0.6223 6.35 0)
+			(property "Reference" "TH"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3970,7 +3971,7 @@
 				)
 			)
 			(property "Value" "KTY85"
-				(at -0.6223 3.81 0)
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3987,7 +3988,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.nxp.com/documents/other/SC17_GENERAL_TEMP_1996_3.pdf"
-				(at 0.254 -6.35 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4023,6 +4024,102 @@
 				)
 			)
 			(symbol "KTY85_0_1"
+				(arc
+					(start -2.4892 -1.4478)
+					(mid -2.4907 -1.2925)
+					(end -2.6162 -1.1938)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4892 -1.4478)
+					(mid -2.4148 -1.6274)
+					(end -2.2352 -1.7018)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4892 -0.8128)
+					(mid -2.4148 -0.9924)
+					(end -2.2352 -1.0668)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.2352 -1.7018)
+					(mid -2.0556 -1.6274)
+					(end -1.9812 -1.4478)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.2352 -1.0668)
+					(mid -1.8805 -1.0481)
+					(end -1.6002 -0.8128)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.2352 -0.5588)
+					(mid -2.4148 -0.6332)
+					(end -2.4892 -0.8128)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.9812 -0.8128)
+					(mid -2.0556 -0.6332)
+					(end -2.2352 -0.5588)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.9812 -1.4224) (xy -1.9812 -0.8128)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -14187,7 +14284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 261.62 78.74 0)
 			(effects
 				(font
@@ -16336,7 +16433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 175.26 173.99 0)
 			(effects
 				(font

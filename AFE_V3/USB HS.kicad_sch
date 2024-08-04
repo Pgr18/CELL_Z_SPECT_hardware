@@ -3475,7 +3475,7 @@
 		)
 	)
 	(junction
-		(at 104.14 39.37)
+		(at 26.67 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06932543-cc5c-4714-9900-b2f114532aa4")
@@ -3547,7 +3547,7 @@
 		(uuid "763c63d6-d169-4ed5-9982-f4700480f05b")
 	)
 	(junction
-		(at 139.7 39.37)
+		(at 62.23 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "791d86dc-d7f1-4c65-80b1-660ad6bcd7e7")
@@ -3686,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 36.83) (xy 139.7 36.83)
+			(xy 59.69 170.18) (xy 62.23 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3776,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 41.91) (xy 139.7 39.37)
+			(xy 62.23 175.26) (xy 62.23 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3826,7 +3826,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 44.45) (xy 137.16 44.45)
+			(xy 63.5 177.8) (xy 59.69 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3956,7 +3956,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 44.45) (xy 106.68 44.45)
+			(xy 19.05 177.8) (xy 29.21 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4076,7 +4076,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 36.83) (xy 139.7 39.37)
+			(xy 62.23 170.18) (xy 62.23 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4106,7 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 36.83) (xy 106.68 36.83)
+			(xy 26.67 170.18) (xy 29.21 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4116,7 +4116,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 104.14 41.91)
+			(xy 29.21 175.26) (xy 26.67 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4136,7 +4136,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 39.37) (xy 104.14 39.37)
+			(xy 21.59 172.72) (xy 26.67 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4396,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 31.75) (xy 104.14 36.83)
+			(xy 26.67 165.1) (xy 26.67 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4516,7 +4516,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 41.91) (xy 139.7 41.91)
+			(xy 59.69 175.26) (xy 62.23 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4526,7 +4526,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 104.14 39.37)
+			(xy 26.67 175.26) (xy 26.67 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4536,7 +4536,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 39.37) (xy 106.68 39.37)
+			(xy 26.67 172.72) (xy 29.21 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4706,7 +4706,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 39.37) (xy 139.7 39.37)
+			(xy 67.31 172.72) (xy 62.23 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4716,7 +4716,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 39.37) (xy 137.16 39.37)
+			(xy 62.23 172.72) (xy 59.69 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4804,6 +4804,17 @@
 		)
 		(uuid "fd4383e7-c049-49fd-aa41-7e46cb9c663a")
 	)
+	(label "USB_SHIELD"
+		(at 30.48 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02d01d30-6fd9-4d5d-8537-34df3a2cd651")
+	)
 	(label "VBUS_OK"
 		(at 146.05 100.33 0)
 		(fields_autoplaced yes)
@@ -4815,7 +4826,7 @@
 		)
 		(uuid "04057e6a-4f82-4813-8772-abbf270f1bb6")
 	)
-	(label "DP"
+	(label "DN"
 		(at 107.95 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4827,7 +4838,7 @@
 		(uuid "0b7c082e-63ec-41db-a08b-53c1d08facc5")
 	)
 	(label "SW_EN"
-		(at 96.52 44.45 0)
+		(at 19.05 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4838,7 +4849,7 @@
 		(uuid "0d5988d0-fe8e-4e71-9208-3bab955588f4")
 	)
 	(label "VBUS_OK"
-		(at 144.78 39.37 0)
+		(at 67.31 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4860,7 +4871,7 @@
 		(uuid "10122ac4-f8c0-4786-9d93-6b2151740d51")
 	)
 	(label "VBUS_FL"
-		(at 140.97 44.45 0)
+		(at 63.5 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4881,7 +4892,7 @@
 		)
 		(uuid "1bdf23d6-aae1-4afc-b913-42639e985af0")
 	)
-	(label "DM"
+	(label "DP"
 		(at 107.95 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4914,7 +4925,7 @@
 		)
 		(uuid "5edc2af2-0100-4106-8dd2-edb834ad3aaa")
 	)
-	(label "DM_CONN"
+	(label "D_CONN-"
 		(at 59.69 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4926,7 +4937,7 @@
 		(uuid "6674d573-8a12-4941-bfc0-eb4ca5b2a4e5")
 	)
 	(label "VBUS"
-		(at 99.06 39.37 0)
+		(at 21.59 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4947,7 +4958,7 @@
 		)
 		(uuid "74806e91-57ba-417a-a808-646801cee053")
 	)
-	(label "DM_CONN"
+	(label "D_CONN-"
 		(at 85.09 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4991,7 +5002,7 @@
 		)
 		(uuid "cc15da83-64e9-47c6-b209-588f89ea9697")
 	)
-	(label "DP_CONN"
+	(label "D_CONN+"
 		(at 59.69 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5003,7 +5014,7 @@
 		(uuid "d510fedb-b70f-4f5d-b9d7-f0439899c2ff")
 	)
 	(label "VBUS_OK"
-		(at 160.02 30.48 0)
+		(at 82.55 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5013,7 +5024,7 @@
 		)
 		(uuid "d8085487-a775-47dc-9ff4-7c57f4b29374")
 	)
-	(label "DM"
+	(label "DN"
 		(at 167.64 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5024,7 +5035,7 @@
 		)
 		(uuid "e21ca737-49f3-435e-994b-6d47b2fdeb73")
 	)
-	(label "DP_CONN"
+	(label "D_CONN+"
 		(at 85.09 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5596,7 +5607,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 104.14 31.75 0)
+		(at 26.67 165.1 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5605,7 +5616,7 @@
 		(dnp no)
 		(uuid "1b42d163-b7f7-4629-81a0-c591ec2f3d7c")
 		(property "Reference" "#PWR0198"
-			(at 104.14 25.4 0)
+			(at 26.67 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5625,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 102.108 29.972 0)
+			(at 24.638 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 31.75 0)
+			(at 26.67 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 31.75 0)
+			(at 26.67 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 104.14 31.75 0)
+			(at 26.67 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +5873,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 160.02 48.26 0)
+		(at 82.55 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5871,7 +5882,7 @@
 		(dnp no)
 		(uuid "2585d2e8-4d6f-420f-aa67-f00c389d8a2a")
 		(property "Reference" "#PWR0200"
-			(at 160.02 54.61 0)
+			(at 82.55 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,7 +5891,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 157.48 52.324 0)
+			(at 80.01 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +5900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 48.26 0)
+			(at 82.55 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 48.26 0)
+			(at 82.55 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 160.02 48.26 0)
+			(at 82.55 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X100-33N-D"
+		(property "Footprint" "zpc-lib:QFN50P500X500X100-33N-D"
 			(at 205.74 174.93 0)
 			(effects
 				(font
@@ -8386,7 +8397,7 @@
 	)
 	(symbol
 		(lib_id "STMPS2151MTR:STMPS2151MTR")
-		(at 106.68 36.83 0)
+		(at 29.21 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8395,7 +8406,7 @@
 		(fields_autoplaced yes)
 		(uuid "af1bd400-728f-4646-b00e-7ca0a9d05db6")
 		(property "Reference" "IC17"
-			(at 121.92 29.21 0)
+			(at 44.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8403,7 +8414,7 @@
 			)
 		)
 		(property "Value" "STMPS2151MTR"
-			(at 121.92 31.75 0)
+			(at 44.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8422,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-8N"
-			(at 133.35 131.75 0)
+			(at 55.88 265.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,7 +8432,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/e8/d7/48/25/eb/87/45/b3/CD00167470.pdf/files/CD00167470.pdf/jcr:content/translations/en.CD00167470.pdf"
-			(at 133.35 231.75 0)
+			(at 55.88 365.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +8442,7 @@
 			)
 		)
 		(property "Description" "STMICROELECTRONICS - STMPS2151MTR - Power Load Distribution Switch, High Side, 2 Outputs, 28V, 60A, 0.0135ohm, TSSOP-14"
-			(at 106.68 36.83 0)
+			(at 29.21 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +8451,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 133.35 431.75 0)
+			(at 55.88 565.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8450,7 +8461,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 133.35 531.75 0)
+			(at 55.88 665.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,7 +8471,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STMPS2151MTR"
-			(at 133.35 631.75 0)
+			(at 55.88 765.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8470,7 +8481,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-STMPS2151MTR"
-			(at 133.35 731.75 0)
+			(at 55.88 865.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8491,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STMPS2151MTR?qs=qolwYojYp3Q17U%2FXQedHSg%3D%3D"
-			(at 133.35 831.75 0)
+			(at 55.88 965.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8501,7 @@
 			)
 		)
 		(property "Arrow Part Number" "STMPS2151MTR"
-			(at 133.35 931.75 0)
+			(at 55.88 1065.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8511,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stmps2151mtr/stmicroelectronics?region=nac"
-			(at 133.35 1031.75 0)
+			(at 55.88 1165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8622,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 160.02 44.45 90)
+		(at 82.55 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8619,7 +8630,7 @@
 		(dnp no)
 		(uuid "baae38cb-8054-4fff-9f21-037c614a974d")
 		(property "Reference" "D16"
-			(at 163.83 45.4025 90)
+			(at 86.36 178.7525 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +8639,7 @@
 			)
 		)
 		(property "Value" "FYLS-0603UGC"
-			(at 163.83 47.752 90)
+			(at 86.36 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8648,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8666,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8675,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8684,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8693,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8702,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8711,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +8720,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 160.02 44.45 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,7 +9420,7 @@
 	)
 	(symbol
 		(lib_id "NSI45020T1G:NSI45020T1G")
-		(at 160.02 35.56 90)
+		(at 82.55 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9418,7 +9429,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8542997-67b6-45d0-8870-8aa76bc72671")
 		(property "Reference" "D15"
-			(at 162.56 34.2899 90)
+			(at 85.09 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9427,7 +9438,7 @@
 			)
 		)
 		(property "Value" "NSI45020T1G"
-			(at 162.56 36.8299 90)
+			(at 85.09 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9436,7 +9447,7 @@
 			)
 		)
 		(property "Footprint" "zpc-lib:SOD3716X135N"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9466,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9475,7 @@
 			)
 		)
 		(property "MF" "ON Semiconductor"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,7 +9485,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "5492"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9495,7 @@
 			)
 		)
 		(property "Package" "SOD-123-2 ON Semiconductor"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,7 +9505,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +9515,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/NSI45020T1G/Onsemi/view-part/?ref=eda"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9525,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9535,7 @@
 			)
 		)
 		(property "PARTREV" "6"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,7 +9545,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NSI45020T1G/Onsemi/view-part/?ref=snap"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9555,7 @@
 			)
 		)
 		(property "MP" "NSI45020T1G"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,7 +9565,7 @@
 			)
 		)
 		(property "Description_1" "\nCurrent Regulator Regulator High/Low-Side 20mA SOD-123\n"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,7 +9575,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +9585,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON Semiconductor"
-			(at 160.02 35.56 0)
+			(at 82.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

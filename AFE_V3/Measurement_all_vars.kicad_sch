@@ -316,173 +316,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2771,12 +2604,6 @@
 		(uuid "6d278dd2-e5c6-45b0-acc5-1cc9c07a1348")
 	)
 	(junction
-		(at 99.06 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e4e24e8-a28d-4774-bd4f-f44357b4f1db")
-	)
-	(junction
 		(at 386.08 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2957,6 +2784,12 @@
 		(uuid "de832c53-e54c-48d4-b727-f201accc91e0")
 	)
 	(junction
+		(at 115.57 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb03b233-fadf-4494-9ee4-846b92741a25")
+	)
+	(junction
 		(at 160.02 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3011,6 +2844,16 @@
 			(type default)
 		)
 		(uuid "001cb8d7-2fa6-44bb-ad8c-d43fd3658f23")
+	)
+	(wire
+		(pts
+			(xy 303.53 138.43) (xy 342.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00625519-c624-4964-b4cd-b271b758f780")
 	)
 	(wire
 		(pts
@@ -3151,6 +2994,16 @@
 			(type default)
 		)
 		(uuid "0c046614-6d38-4017-afde-c618c86c65d4")
+	)
+	(wire
+		(pts
+			(xy 302.26 160.02) (xy 326.39 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cfec796-e3f7-4874-8a13-57f7d1575902")
 	)
 	(wire
 		(pts
@@ -3414,16 +3267,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 50.8) (xy 285.75 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23da9899-487d-4d1c-b4be-352bee4de57f")
-	)
-	(wire
-		(pts
 			(xy 344.17 33.02) (xy 344.17 24.13)
 		)
 		(stroke
@@ -3544,16 +3387,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 165.1) (xy 317.5 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e6fd0b5-78ec-469a-86a6-1165dde4698d")
-	)
-	(wire
-		(pts
 			(xy 46.99 240.03) (xy 46.99 246.38)
 		)
 		(stroke
@@ -3574,13 +3407,13 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 104.14) (xy 274.32 107.95)
+			(xy 115.57 162.56) (xy 120.65 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31206f0d-79b6-4a79-88fa-955f168b585c")
+		(uuid "303ba227-2b4b-4a1e-976d-8bafeede1124")
 	)
 	(wire
 		(pts
@@ -3734,6 +3567,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 45.72) (xy 313.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b8a686-c265-4c4e-923a-b4a7fce4ca41")
+	)
+	(wire
+		(pts
 			(xy 102.87 153.67) (xy 105.41 153.67)
 		)
 		(stroke
@@ -3761,16 +3604,6 @@
 			(type default)
 		)
 		(uuid "42ba76e4-6dce-44f2-a38d-14d1b1063aec")
-	)
-	(wire
-		(pts
-			(xy 322.58 160.02) (xy 326.39 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b23206-2f23-4295-943c-fc68cd137d21")
 	)
 	(wire
 		(pts
@@ -3901,26 +3734,6 @@
 			(type default)
 		)
 		(uuid "4ee68a7b-60b7-49c4-8d66-1d5c6184b05d")
-	)
-	(wire
-		(pts
-			(xy 322.58 138.43) (xy 342.9 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "530ca9fb-65d6-4af5-8c59-2068a190f5ea")
-	)
-	(wire
-		(pts
-			(xy 297.18 143.51) (xy 317.5 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "531debd7-d484-465b-a199-06c345bb2833")
 	)
 	(wire
 		(pts
@@ -4174,6 +3987,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 162.56) (xy 115.57 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b506b35-1cba-42ca-865e-e4133f9e5274")
+	)
+	(wire
+		(pts
 			(xy 167.64 95.25) (xy 167.64 92.71)
 		)
 		(stroke
@@ -4254,13 +4077,13 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 24.13) (xy 298.45 24.13)
+			(xy 146.05 123.19) (xy 153.67 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7340c936-c780-4df9-881a-bbf6dbc699cb")
+		(uuid "73321896-446a-468e-8551-30ddb9d8d4e3")
 	)
 	(wire
 		(pts
@@ -4271,16 +4094,6 @@
 			(type default)
 		)
 		(uuid "73d90fdd-f525-40ad-9c7e-1a6892a39bd1")
-	)
-	(wire
-		(pts
-			(xy 274.32 104.14) (xy 295.91 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74141517-61fa-40b0-a6b8-d1e07dd8981f")
 	)
 	(wire
 		(pts
@@ -4371,16 +4184,6 @@
 			(type default)
 		)
 		(uuid "7f35825f-d46a-412d-a094-68319057affe")
-	)
-	(wire
-		(pts
-			(xy 248.92 113.03) (xy 269.24 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80633b92-003a-4dc3-aff5-da816ea453a9")
 	)
 	(wire
 		(pts
@@ -4694,16 +4497,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 29.21) (xy 285.75 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e0c20f0-7dad-4239-a5ac-014f8445f8d3")
-	)
-	(wire
-		(pts
 			(xy 160.02 214.63) (xy 160.02 203.2)
 		)
 		(stroke
@@ -4734,6 +4527,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 162.56) (xy 128.27 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ea739e-50c5-47e6-a69f-38a2d23b6a02")
+	)
+	(wire
+		(pts
 			(xy 50.8 151.13) (xy 50.8 154.94)
 		)
 		(stroke
@@ -4761,6 +4564,16 @@
 			(type default)
 		)
 		(uuid "a5d778b3-20bf-4a3b-9454-06f47225130b")
+	)
+	(wire
+		(pts
+			(xy 276.86 104.14) (xy 295.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60b8c07-d5ee-48c2-9850-9cd61fa891e2")
 	)
 	(wire
 		(pts
@@ -5034,6 +4847,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 86.36) (xy 288.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf057df7-0928-4592-97b3-26f275c19075")
+	)
+	(wire
+		(pts
 			(xy 88.9 231.14) (xy 90.17 231.14)
 		)
 		(stroke
@@ -5304,6 +5127,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 24.13) (xy 298.45 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded9239e-5530-46a5-b88b-36c0004fb4a8")
+	)
+	(wire
+		(pts
 			(xy 29.21 256.54) (xy 46.99 256.54)
 		)
 		(stroke
@@ -5314,7 +5147,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 162.56) (xy 99.06 162.56)
+			(xy 96.52 162.56) (xy 115.57 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5524,16 +5357,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 86.36) (xy 288.29 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bf74ab-d161-45f8-ac82-0ee82806480a")
-	)
-	(wire
-		(pts
 			(xy 153.67 135.89) (xy 153.67 134.62)
 		)
 		(stroke
@@ -5541,16 +5364,6 @@
 			(type default)
 		)
 		(uuid "f501e87b-5e88-4f55-bd21-85a8ea83cf3e")
-	)
-	(wire
-		(pts
-			(xy 99.06 162.56) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5196717-473c-4557-82de-7fd7a7e035b3")
 	)
 	(wire
 		(pts
@@ -5634,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 45.72) (xy 313.69 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f781bf-0a87-4fdf-8b17-ad48aa80a4d5")
-	)
-	(wire
-		(pts
 			(xy 344.17 157.48) (xy 346.71 157.48)
 		)
 		(stroke
@@ -5664,13 +5467,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 91.44) (xy 269.24 91.44)
+			(xy 124.46 123.19) (xy 138.43 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcbe34f4-66ee-4d7f-8b14-63d37a183ed7")
+		(uuid "fca92929-2fde-4f29-9eab-1ba0f57136da")
 	)
 	(wire
 		(pts
@@ -5765,6 +5568,28 @@
 		)
 		(uuid "0ac6876d-a602-414c-a3bd-8be6b2bbf86f")
 	)
+	(label "ADC_REF_CAL"
+		(at 96.52 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14795a87-ae10-464c-972c-8a88f602a815")
+	)
+	(label "imp+1"
+		(at 303.53 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18a4b312-b2f7-4d72-b32b-615a8950d54c")
+	)
 	(label "INA_REF"
 		(at 146.05 219.71 0)
 		(fields_autoplaced yes)
@@ -5831,6 +5656,28 @@
 		)
 		(uuid "5051da8d-3046-477d-89b8-7d739a71c90c")
 	)
+	(label "INA_REF_CAL"
+		(at 156.21 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6045f8bf-991e-46a6-9e6d-58b52314101f")
+	)
+	(label "ADC_REF_CAL"
+		(at 124.46 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6721f4cc-e013-45d2-aaf6-3e0f2a6e8e60")
+	)
 	(label "ADC_REF"
 		(at 120.65 219.71 0)
 		(fields_autoplaced yes)
@@ -5863,6 +5710,17 @@
 			(justify left bottom)
 		)
 		(uuid "71c1f9e5-e8af-49c8-8318-65e26b7865a8")
+	)
+	(label "imp-1"
+		(at 278.13 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a1ef5d3-ec85-405f-8e90-5635e4dc2a06")
 	)
 	(label "CONV_SPI"
 		(at 46.99 165.1 0)
@@ -5907,6 +5765,17 @@
 			(justify left bottom)
 		)
 		(uuid "90f92682-3a69-4485-a279-d3bb0f927f3e")
+	)
+	(label "INA_REF_CAL"
+		(at 133.35 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb6b1aa3-1ba9-4d60-9555-728ae545eaec")
 	)
 	(label "OUT_TPC_CAL"
 		(at 107.95 160.02 180)
@@ -5995,6 +5864,138 @@
 			(justify right bottom)
 		)
 		(uuid "f553b7e1-a1a1-43fb-9663-81952077c44c")
+	)
+	(global_label "imp-1"
+		(shape input)
+		(at 278.13 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "236b6175-dc4b-411e-8bc9-6e6a7f1d5291")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.9158 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "imp+1"
+		(shape input)
+		(at 303.53 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c7f42cc-547a-42ad-9d94-7e0b9df30ff4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.3158 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "cur-1"
+		(shape input)
+		(at 292.1 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71851b1c-999c-47a4-95cc-b6a592c2aea9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.3091 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "imp+2"
+		(shape input)
+		(at 302.26 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74078d99-d869-4292-922a-fba03359545f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.0458 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "cur-2"
+		(shape input)
+		(at 292.1 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2b2108e-a412-4eac-9e89-29a35e2d167f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.3091 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "imp-2"
+		(shape input)
+		(at 276.86 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb7e6551-3b12-4e6a-a222-0c89f76c2c9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.6458 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "MEAS-_CH_SEL"
 		(shape input)
@@ -6091,71 +6092,6 @@
 			(justify right)
 		)
 		(uuid "d4cfeb3d-acc0-4fe5-baa5-636b657c4a07")
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 297.18 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01b97d6e-a0fc-483a-8dcd-e2510e1b2d56")
-		(property "Reference" "#PWR0122"
-			(at 290.83 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 291.338 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 297.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffe5810d-0b23-4fa7-a5bc-25fdc9d40437")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6750,71 +6686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 265.43 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1075ba03-ee9f-4b29-8fba-fcbba5cbf7b2")
-		(property "Reference" "#PWR0108"
-			(at 259.08 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 259.588 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 265.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c671a67c-7365-4006-8d35-335099bf9207")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "zpc-lib:TPA1286U")
 		(at 179.07 115.57 0)
 		(mirror y)
@@ -6963,76 +6834,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 317.5 160.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13839404-9465-4fa6-9bf2-e6942ceb8e2f")
-		(property "Reference" "J12"
-			(at 313.69 159.0431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 313.69 161.5831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 317.5 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 317.5 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c1322ca-8441-4a8b-9398-ee94bb4671d4")
-		)
-		(pin "1"
-			(uuid "05f2c147-9ca7-449d-aebc-336b320a6b9c")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -7525,6 +7326,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 124.46 162.56 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b3f4f79-f335-4499-8079-fc5fbf02b25f")
+		(property "Reference" "JP3"
+			(at 121.666 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 123.952 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 124.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 124.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6866b6f5-8c51-44bb-9c81-3f1761da01ea")
+		)
+		(pin "1"
+			(uuid "1c251c73-63c5-4837-85c9-c108a49f4f01")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 95.25 245.11 0)
 		(mirror y)
@@ -7744,71 +7612,6 @@
 			(project ""
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 248.92 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2da996c6-9c13-4b4f-a79d-612133e0c945")
-		(property "Reference" "#PWR0116"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 243.078 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 248.92 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48fc465f-1e2a-4a00-ac98-2baa02da9450")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -8565,76 +8368,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 269.24 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d058446-6dbb-480a-a3c5-79e52d03e65d")
-		(property "Reference" "J10"
-			(at 265.43 106.9731 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 265.43 109.5131 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 269.24 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 269.24 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc507bc2-b643-48a6-9126-17c14c84be2d")
-		)
-		(pin "1"
-			(uuid "6e20607c-3534-4c16-86f5-f99846ee02c0")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9521,71 +9254,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 248.92 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51376887-e711-4d70-8ed3-3197ecff64df")
-		(property "Reference" "#PWR0115"
-			(at 242.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 243.078 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 248.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32ad1954-d69e-409e-994e-c9dafc2ca8fa")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -10871,6 +10539,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 115.57 175.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a973578-754e-4394-b5d6-cef1a49ce32c")
+		(property "Reference" "#PWR084"
+			(at 115.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 115.57 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 115.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "894d939e-bb08-45a7-acfd-3193872ef550")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 160.02 242.57 180)
 		(unit 1)
@@ -10997,71 +10731,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 297.18 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dd9303a-9ccb-4f8d-b669-bbd7b4c7f056")
-		(property "Reference" "#PWR0123"
-			(at 290.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 291.338 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 297.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d34ceb34-bee9-4412-ba77-6dc763a94711")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -12729,76 +12398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 269.24 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2cf5bcd-81aa-4804-9a91-35135228a187")
-		(property "Reference" "J9"
-			(at 265.43 85.3831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 265.43 87.9231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 269.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 269.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f25e8546-6de0-4090-bc57-527c35ae5e39")
-		)
-		(pin "1"
-			(uuid "b1378fb9-3313-4576-81a8-93031ad30ed9")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 364.49 137.16 270)
 		(unit 1)
@@ -12990,76 +12589,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 285.75 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acebc8d5-ae95-45cf-8ee5-0657085cf483")
-		(property "Reference" "J8"
-			(at 281.94 44.7431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 281.94 47.2831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 285.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 285.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90ac8314-2f03-4e67-9997-f4a1129ed8d6")
-		)
-		(pin "1"
-			(uuid "c2efe750-ecf0-4eab-8319-e8e969c7621e")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -13644,76 +13173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 317.5 138.43 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bec2f739-e9cc-4cad-8d98-c24383192092")
-		(property "Reference" "J11"
-			(at 313.69 137.4531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 313.69 139.9931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 317.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 317.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1972dce1-f582-42d7-982c-4af2a3238127")
-		)
-		(pin "1"
-			(uuid "3f834f89-9241-47e5-9792-ab9962ee5895")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "zpc-lib:TPA1286U")
 		(at 171.45 212.09 0)
 		(mirror y)
@@ -14022,76 +13481,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 285.75 24.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf48b8d1-95a7-49b2-a027-22b421f7cf76")
-		(property "Reference" "J7"
-			(at 281.94 23.1531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 281.94 25.6931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 285.75 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 285.75 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e6fe678-b4e3-4e6e-8372-a7f42909008a")
-		)
-		(pin "1"
-			(uuid "31e31cc0-3230-4ee8-a504-b52842d5bbb6")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -14632,71 +14021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 265.43 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e18273ab-35e7-4aba-9226-ff3a1020fdab")
-		(property "Reference" "#PWR0109"
-			(at 259.08 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 259.588 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 265.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d84c462-b052-4cca-9514-f2ab12eb77ea")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 372.11 133.35 90)
 		(unit 1)
@@ -14758,6 +14082,73 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 142.24 123.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e91a8d5e-1108-4c6d-99b9-a52278bed724")
+		(property "Reference" "JP1"
+			(at 145.034 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 142.748 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f979e9d-e05e-469a-a869-975f6c276d24")
+		)
+		(pin "1"
+			(uuid "66d1e56f-13b3-46ad-b9dd-aa0910170244")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -15379,6 +14770,73 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
 					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 115.57 171.45 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5cd1011-5d74-4f91-9b59-68325f489c9d")
+		(property "Reference" "JP2"
+			(at 113.538 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 118.618 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86732e70-eea9-4209-ae8b-197a962f2c9e")
+		)
+		(pin "1"
+			(uuid "596e150a-e9dd-4301-b5a0-fe363937a014")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/a3677980-c261-4da3-ba1a-ed4ba46d69bb"
+					(reference "JP2")
 					(unit 1)
 				)
 			)

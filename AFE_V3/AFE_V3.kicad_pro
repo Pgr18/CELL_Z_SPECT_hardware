@@ -467,7 +467,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.8,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -484,7 +484,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.8,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -501,7 +501,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.8,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -588,6 +588,7 @@
       "/Power/PWR_BUT": "POWER_BIG_IN",
       "/Power/PWR_IN": "POWER_BIG_IN",
       "/Power/PWR_In": "POWER_BIG_IN",
+      "/Power/PWR_prot": "POWER_BIG_IN",
       "/Power/Pow1": "POWER_BIG_IN",
       "2V5": "POWER_ANALOG",
       "3V3": "POWER_DIGITAL",

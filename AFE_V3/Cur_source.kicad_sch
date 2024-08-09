@@ -446,173 +446,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x07"
 			(pin_names
 				(offset 1.016) hide)
@@ -2953,16 +2786,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 156.21) (xy 361.95 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1761aa19-d9f0-454a-9382-6ce08b3e0b35")
-	)
-	(wire
-		(pts
 			(xy 336.55 167.64) (xy 339.09 167.64)
 		)
 		(stroke
@@ -3050,16 +2873,6 @@
 			(type default)
 		)
 		(uuid "20873e35-a52b-45dc-82d4-167cdad19447")
-	)
-	(wire
-		(pts
-			(xy 367.03 139.7) (xy 387.35 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21fbfa25-a1db-4cd1-b6e1-908c9e597181")
 	)
 	(wire
 		(pts
@@ -3500,16 +3313,6 @@
 			(type default)
 		)
 		(uuid "45b6432a-3550-41d6-817d-9b96ed81792a")
-	)
-	(wire
-		(pts
-			(xy 349.25 134.62) (xy 361.95 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "472676f8-da02-4a79-bb83-863ca71f6914")
 	)
 	(wire
 		(pts
@@ -4343,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 134.62) (xy 353.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b43a534-0499-4b47-82ee-f3622ab24264")
+	)
+	(wire
+		(pts
 			(xy 44.45 92.71) (xy 39.37 92.71)
 		)
 		(stroke
@@ -4660,16 +4473,6 @@
 			(type default)
 		)
 		(uuid "ae51c171-e03e-4350-b64b-150b52d53f95")
-	)
-	(wire
-		(pts
-			(xy 367.03 161.29) (xy 387.35 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeec6af3-095e-4ccc-911f-aa6150af6444")
 	)
 	(wire
 		(pts
@@ -5113,6 +4916,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 156.21) (xy 351.79 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde670e1-89e8-4875-b6cd-7a5e94df116c")
+	)
+	(wire
+		(pts
 			(xy 107.95 52.07) (xy 107.95 55.88)
 		)
 		(stroke
@@ -5527,6 +5340,50 @@
 			(justify left bottom)
 		)
 		(uuid "c0be1fca-365e-4909-8fac-9f953494bab8")
+	)
+	(global_label "cur+2"
+		(shape input)
+		(at 351.79 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86f85caf-76ba-495c-90d1-76803bc0bfc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.5809 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "cur+1"
+		(shape input)
+		(at 353.06 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7b3156c-82b0-4539-ac15-a2cd1bd4599e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.8509 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "GEN_FSYNC"
 		(shape input)
@@ -6812,75 +6669,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/e898a038-d3f2-4533-8015-dff2a43f715c"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 367.03 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2afac625-d435-4a75-99cd-dbc0396b9c84")
-		(property "Reference" "J1"
-			(at 370.84 155.2331 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 370.84 157.7731 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 367.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 367.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 367.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d3a3f18-fd22-4ee2-921b-29c80816a6bc")
-		)
-		(pin "1"
-			(uuid "a1b5669b-2354-4812-9d99-01be83bd695b")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/e898a038-d3f2-4533-8015-dff2a43f715c"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10450,75 +10238,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 367.03 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e5352a7-f4a0-4e63-bd16-11c5e5e1e211")
-		(property "Reference" "J6"
-			(at 370.84 133.6431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 370.84 136.1831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 367.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 367.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 367.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "385d9f27-ccdf-4fa4-922c-726f12d8561c")
-		)
-		(pin "1"
-			(uuid "baa64129-3370-4604-9f37-0167bdf8c78a")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/e898a038-d3f2-4533-8015-dff2a43f715c"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 165.1 175.26 270)
 		(unit 1)
@@ -12654,72 +12373,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 387.35 139.7 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4d20999-539d-4def-a5d0-8c7c2a19a10a")
-		(property "Reference" "#PWR0102"
-			(at 393.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 393.192 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 387.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de9683e4-e21c-406e-a8e0-c5b9166fc998")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/e898a038-d3f2-4533-8015-dff2a43f715c"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
 		(at 208.28 124.46 90)
 		(mirror x)
 		(unit 1)
@@ -13048,72 +12701,6 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/e898a038-d3f2-4533-8015-dff2a43f715c"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 387.35 161.29 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea9d6f23-8fd8-45d6-9a29-f17b61c869f5")
-		(property "Reference" "#PWR069"
-			(at 393.7 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 393.192 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 387.35 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58ac77ee-e414-475a-adc7-cdc56090a108")
-		)
-		(instances
-			(project "AFE_V3"
-				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/e898a038-d3f2-4533-8015-dff2a43f715c"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)

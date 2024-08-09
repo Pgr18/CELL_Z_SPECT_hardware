@@ -8761,6 +8761,17 @@
 		)
 		(uuid "be2c28ac-b193-43f6-b1e3-29c1f38105b5")
 	)
+	(label "PWR_prot"
+		(at 133.35 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca6abc6a-1725-486c-92a8-ff9f677b18a9")
+	)
 	(label "PWR_IN"
 		(at 55.88 90.17 0)
 		(fields_autoplaced yes)

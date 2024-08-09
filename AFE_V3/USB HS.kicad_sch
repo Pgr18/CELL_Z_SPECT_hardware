@@ -3666,7 +3666,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 71.12) (xy 199.39 72.39)
+			(xy 199.39 69.85) (xy 199.39 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3903,6 +3903,16 @@
 			(type default)
 		)
 		(uuid "4634899e-eb19-44fd-864f-ae7a9519ea9a")
+	)
+	(wire
+		(pts
+			(xy 218.44 69.85) (xy 226.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a4110c-2b26-4f90-a782-84f5b1151154")
 	)
 	(wire
 		(pts
@@ -4363,6 +4373,16 @@
 			(type default)
 		)
 		(uuid "8c629ad9-c2c1-4654-be86-29b8f42e11fb")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 199.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e022a43-36db-4fd7-83b1-340785b17188")
 	)
 	(wire
 		(pts
@@ -4859,17 +4879,6 @@
 		)
 		(uuid "0d5c6caa-1265-4392-9c03-6a215f893165")
 	)
-	(label "1.8VDD"
-		(at 196.85 144.78 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10122ac4-f8c0-4786-9d93-6b2151740d51")
-	)
 	(label "VBUS_FL"
 		(at 63.5 177.8 0)
 		(fields_autoplaced yes)
@@ -4968,17 +4977,6 @@
 			(justify left bottom)
 		)
 		(uuid "7c9080f1-67f3-4092-a978-021b41c46121")
-	)
-	(label "1.8VDD"
-		(at 199.39 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8501841a-57e8-4cc7-9c52-6a702b28f2fb")
 	)
 	(label "VBUS_FL"
 		(at 184.15 143.51 90)
@@ -7462,7 +7460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zpc-lib:QFN50P500X500X100-33N-D"
+		(property "Footprint" "QFN50P500X500X100-33N-D"
 			(at 205.74 174.93 0)
 			(effects
 				(font
@@ -9087,6 +9085,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 214.63 69.85 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e739e026-39c6-4f5f-8c5b-475dd38c54ff")
+		(property "Reference" "C53"
+			(at 218.948 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF/6.3V"
+			(at 221.234 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 218.44 70.8152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9980bd53-93c9-41bf-94fb-0c4000b55862")
+		)
+		(pin "1"
+			(uuid "56b931bf-d193-423f-b01a-3f3eab61dead")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/cf962eaa-adb1-4d3a-b0f1-52da2b2e3e19"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 224.79 77.47 90)
 		(mirror x)
@@ -9278,6 +9344,73 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/cf962eaa-adb1-4d3a-b0f1-52da2b2e3e19"
 					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 226.06 69.85 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee8c475a-abaf-4dcf-9326-4e31fe36a844")
+		(property "Reference" "#PWR085"
+			(at 232.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 228.6 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e75a87dc-72c6-4e2e-a4ad-266d3edf2931")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/cf962eaa-adb1-4d3a-b0f1-52da2b2e3e19"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)

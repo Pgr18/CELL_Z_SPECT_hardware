@@ -1,0 +1,67 @@
+stages:
+  - build
+  - upload
+  - release
+
+default:
+  image: gitlab-registry.ozon.ru/conveyor-automation/equipments/zpc-ozon/embed-builder:12.2.1
+
+variables:
+  # See https://docs.gitlab.com/ee/user/packages/generic_packages/#publish-a-package-file
+  PACKAGE_REGISTRY_URL: "$CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/dmr-hardware"
+
+build-job:
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+    PROJ_NAME: "AFE_V3"
+    #CI_DEBUG_TRACE: 'true'
+
+  stage: build
+  image: gitlab-registry.ozon.ru/conveyor-automation/equipments/zpc-ozon/kicad-ci:1.6.5
+  tags:
+    - build
+  script:
+    - mkdir prod
+    - cd prod
+    - mkdir casing
+    - ../build.sh ../AFE_V3 AFE_V3
+
+  artifacts:
+    paths:
+      - prod/AFE_V3/**
+      - prod/casing/**
+      - prod/*.zip
+
+upload-job:
+  stage: upload
+  rules:
+    - if: $CI_COMMIT_TAG
+  needs:
+    - job: build-job
+  script:
+    - cd prod
+    - |
+      for FILE in $(find * -type f); do
+        curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${FILE} ${PACKAGE_REGISTRY_URL}/${CI_COMMIT_TAG}/${FILE} ;
+      done
+
+release-job:
+  stage: release
+  rules:
+    - if: $CI_COMMIT_TAG
+  needs:
+    - job: upload-job
+  script:
+    - echo "Do release job"
+  release:
+    tag_name: $CI_COMMIT_TAG
+    name: 'Release $CI_COMMIT_TAG'
+    description: 'Release $CI_COMMIT_TAG'
+    assets:
+      links: # use artifact download link
+        - name: Gerber
+          url: "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/MCF_PCB_${CI_COMMIT_TAG}_gerber.zip"
+        - name: Solder
+          url: "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/MCF_PCB_${CI_COMMIT_TAG}_solder.zip"
+
+

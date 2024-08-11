@@ -2729,26 +2729,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.75 5.1 0)
+			(property "Reference" "U4"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "PCN1-S5-S15-S"
-				(at -12.7375 -7.6425 0)
+			(property "Value" "B1212LS-1WR3"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "zpc-lib:CONV_PCN1-S5-S15-S"
-				(at 0 0 0)
+				(at 0 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2776,7 +2774,7 @@
 				)
 			)
 			(property "MF" "CUI Inc."
-				(at 0 0 0)
+				(at 0 12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2786,7 +2784,7 @@
 				)
 			)
 			(property "Description_1" "1 W, 1:1 Input Voltage Range, Single/Dual Unregulated Output, SIP, 1,500 Vdc Isolation, Dc-Dc Converter"
-				(at 0 0 0)
+				(at -0.508 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2796,7 +2794,7 @@
 				)
 			)
 			(property "Package" "SIP-6 CUI"
-				(at 0 0 0)
+				(at 0 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2816,7 +2814,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/PCN1-S5-S15-S/CUI/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 1.016 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2826,7 +2824,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer recommendations"
-				(at 0 0 0)
+				(at 0.254 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2836,7 +2834,7 @@
 				)
 			)
 			(property "PARTREV" "1.0"
-				(at 0 0 0)
+				(at 0 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2846,7 +2844,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PCN1-S5-S15-S/CUI/view-part/?ref=snap"
-				(at 0 0 0)
+				(at 1.016 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2866,7 +2864,7 @@
 				)
 			)
 			(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pcn1-s-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-				(at 0 0 0)
+				(at 0.508 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2943,7 +2941,9 @@
 						)
 					)
 				)
-				(pin output line
+			)
+			(symbol "PCN1-S5-S15-S_1_0"
+				(pin passive line
 					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "-VOUT"
@@ -2961,7 +2961,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 17.78 0 180)
 					(length 5.08)
 					(name "+VOUT"
@@ -3822,8 +3822,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 -3.175 0)
+			(property "Reference" "U5"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3831,15 +3831,14 @@
 				)
 			)
 			(property "Value" "L7905"
-				(at 0 -3.175 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -3850,7 +3849,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
-				(at 0 0 0)
+				(at -0.508 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3859,7 +3858,7 @@
 				)
 			)
 			(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -5V, TO-220/TO-263"
-				(at 0 0 0)
+				(at 0 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7011,6 +7010,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 140.97) (xy 128.27 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47796793-2afc-4382-b0aa-250495f9f27c")
+	)
+	(wire
+		(pts
 			(xy 265.43 176.53) (xy 261.62 176.53)
 		)
 		(stroke
@@ -7168,16 +7177,6 @@
 			(type default)
 		)
 		(uuid "61d6eb46-6587-41c1-9d2b-d648b20aaf16")
-	)
-	(wire
-		(pts
-			(xy 123.19 140.97) (xy 128.27 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "632470d7-79ac-4760-9ad7-900d130001af")
 	)
 	(wire
 		(pts
@@ -11714,7 +11713,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
-			(at 45.72 229.87 0)
+			(at 45.212 222.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +11722,7 @@
 			)
 		)
 		(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -5V, TO-220/TO-263"
-			(at 45.72 229.87 0)
+			(at 45.72 225.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17373,6 +17372,72 @@
 			(project "AFE_V3"
 				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/0098cd6c-82fc-40a6-9d9c-9293af003c7c"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 26.67 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d6874f-aaae-42e6-b535-d00ca3e1d04e")
+		(property "Reference" "#FLG016"
+			(at 26.67 227.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 26.67 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 26.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbd4df49-5f3a-4b88-a023-69a4178707ad")
+		)
+		(instances
+			(project "AFE_V3"
+				(path "/e9ffbb94-33e2-4158-ac4a-a33b17b122cf/0098cd6c-82fc-40a6-9d9c-9293af003c7c"
+					(reference "#FLG016")
 					(unit 1)
 				)
 			)

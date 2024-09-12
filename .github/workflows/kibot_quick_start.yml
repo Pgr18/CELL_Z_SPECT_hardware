@@ -42,10 +42,10 @@ jobs:
  #     # Jekyll will filter the KiRi folders
   #    run: |
  #       touch Generated/.nojekyll
- #   - name: Deploy navigate results
- #     uses: JamesIves/github-pages-deploy-action@v4
- ##     with:
- #       branch: main
- #       folder: Generated
- #       repository-name: Pgr18/CELL_Z_SPECT_hardware
- #       ssh-key: ${{ secrets.DEPLOY_KEY }}
+    - name: Deploy navigate results
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: main
+        folder: Generated
+        repository-name: Pgr18/CELL_Z_SPECT_hardware_pack
+        ssh-key: ${{ secrets.DEPLOY_KEY }}

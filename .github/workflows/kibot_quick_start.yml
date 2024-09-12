@@ -38,6 +38,7 @@ jobs:
         name: Automatic_outputs
         path: Generated
   deploy:
+      needs: quick
       runs-on: ubuntu-latest
       container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
  #   - name: Disable Jekyll

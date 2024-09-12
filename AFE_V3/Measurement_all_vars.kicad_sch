@@ -3137,16 +3137,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 251.46) (xy 87.63 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b819325-5d5f-42ee-bf80-97f930aa1d18")
-	)
-	(wire
-		(pts
 			(xy 96.52 134.62) (xy 96.52 154.94)
 		)
 		(stroke
@@ -4827,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 231.14) (xy 88.9 251.46)
+			(xy 87.63 231.14) (xy 87.63 251.46)
 		)
 		(stroke
 			(width 0)
@@ -4857,7 +4847,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 231.14) (xy 90.17 231.14)
+			(xy 87.63 231.14) (xy 90.17 231.14)
 		)
 		(stroke
 			(width 0)
@@ -5515,6 +5505,32 @@
 		)
 		(uuid "ff995ccb-7505-4579-b874-2b2cd5a85e96")
 	)
+	(arc
+		(start 135.89 203.2)
+		(mid 146.0126 216.8618)
+		(end 143.51 233.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c008de2-3cad-4752-9a59-c2a4659df8ad)
+	)
+	(arc
+		(start 153.67 236.22)
+		(mid 144.2913 220.7621)
+		(end 148.59 203.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7c11fa1a-8b65-4b6a-959f-2ea9e0c0e80b)
+	)
 	(text "Ку = 14.72\n"
 		(exclude_from_sim no)
 		(at 196.088 215.646 0)
@@ -5635,7 +5651,7 @@
 		(uuid "4cae581b-f195-4f9f-85c4-10f894af77d9")
 	)
 	(label "ADC_REF"
-		(at 88.9 240.03 0)
+		(at 87.63 240.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

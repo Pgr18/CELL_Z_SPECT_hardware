@@ -37,24 +37,20 @@ jobs:
       with:
         name: Automatic_outputs
         path: Generated
-  deploy:
-      needs: quick
-      runs-on: ubuntu-latest
-      container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
- #   - name: Disable Jekyll
- #     # Jekyll will filter the KiRi folders
-  #    run: |
- #       touch Generated/.nojekyll
-      steps:
-      - uses: actions/checkout@v4
-        with:
-        # So we can run a diff between last 2 changes
-          fetch-depth: '0'
+  #deploy:
+     #needs: quick
+     # runs-on: ubuntu-latest
+     # container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    - name: Disable Jekyll
+    # Jekyll will filter the KiRi folders
+      run: |
+        touch Generated/.nojekyll
+
         
-      - name: Deploy navigate results
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: main
-          folder: Generated
-          repository-name: Pgr18/CELL_Z_SPECT_hardware_pack
-          ssh-key: ${{ secrets.DEPLOY_KEY }}
+    - name: Deploy navigate results
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: main
+        folder: Generated
+        repository-name: Pgr18/CELL_Z_SPECT_hardware_pack
+        ssh-key: ${{ secrets.DEPLOY_KEY }}
